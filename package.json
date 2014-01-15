@@ -1,0 +1,13 @@
+{
+  "name": "node-seoserver",
+  "description": "Offline renderer for SEO using PhantomJS",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.4.8",
+    "tmp" : "*",
+    "phantomjs" : "*",
+    "config" : "*",
+    "colors" : "*"
+  }
+}
