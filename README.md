@@ -27,12 +27,14 @@ module.exports = {
 4. Check ```config/default.js``` for other settings that can be overriden.
 
 5. Run
+
 ```bash
 NODE_ENV=production node seoserver.js
 ```
 6. Configure your web server to use seoserver for web crawlers.
     * for nginx this might look like:
-```yaml
+
+```
 location / {
     proxy_pass defaultProxy;
 	if ($http_user_agent ~* bot)  {
