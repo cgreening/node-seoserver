@@ -17,6 +17,7 @@ Getting Started
 ---------------
 1. Install the latest version of node.
 2. Clone the repository
+3. Run ```npm install```
 3. Add your configuration to config. E.g. ```config/prodoction.js```
     * At a minimum override the baseURL setting to point to your own server:
 ```javascript
